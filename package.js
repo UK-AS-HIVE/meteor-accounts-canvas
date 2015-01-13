@@ -9,7 +9,7 @@ Package.on_use(function(api) {
   api.use('accounts-base',['client','server']);
   api.imply('accounts-base',['client','server']);
   api.use('accounts-oauth',['client','server']);
-  api.use('hive:canvas',['client','server']);
+  api.use('hive:canvas@0.1.0',['client','server']);
   api.versionsFrom("0.9.4");
   api.add_files('canvas.js');
 });
